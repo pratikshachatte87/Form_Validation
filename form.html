@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>RegistrationForm_v2 by Colorlib</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="form.js" defer></script>
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+		
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+
+	<body>
+
+		<div class="wrapper" style="background-image: url('images/bg-registration-form-2.jpg');">
+			<div class="inner">
+				<form action="POST" target="_blank">
+					<h3>Registration Form</h3>
+					
+						<div class="form-wrapper">
+							<label for="username">Username</label>
+							<input type="text" class="form-control" placeholder="Username" required autocomplete="off" id="username">
+						</div>
+						<div id="usernameerror" class="error"></div>
+				
+					<div class="form-wrapper">
+						<label for="email">Email</label>
+						<input type="text" class="form-control" placeholder="Email" required autocomplete="off" id="email">
+					</div>
+					<div id="emailerror" class="error"></div>
+
+					<div class="form-wrapper">
+						<label for="phone">Phone</label>
+						<input type="text" class="form-control"placeholder="Phone" required autocomplete="off" id="phone">
+					</div>
+					<div id="phoneerror" class="error"></div>
+
+					<div class="form-wrapper">
+						<label for="password">Password</label>
+						<input type="password" class="form-control"placeholder="Password" required autocomplete="off" id="password">
+					</div>
+					<div id="passerror" class="error"> </div>
+
+					<div class="form-wrapper">
+						<label for="Confirmpass">Confirm Password</label>
+						<input type="password" class="form-control"placeholder="Confirm Password" required autocomplete="off" id="Confirmpass">
+					</div>
+					<div id="confpasserror" class="error"></div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox"> I caccept the Terms of Use & Privacy Policy.
+							<span class="checkmark"></span>
+						</label>
+					</div>
+					<button class="formSubmit" type="submit">Register Now</button>
+				</form>
+			</div>
+		</div>
+	</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
